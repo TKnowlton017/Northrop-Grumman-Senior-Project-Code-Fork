@@ -50,3 +50,4 @@ class ConstantVelocityModel:
 model = ConstantVelocityModel(initial_position=30000, initial_velocity=40, unit_time=5, alpha=0.5, beta=0.5)
 model.set_measurements([30110, 30265, 30740, 30750, 31135, 31015, 31180, 31610, 31960, 31865, 32200, 32400, 32600, 32800, 34000])
 model.AB_filter(15)
+time.sleep(5)
