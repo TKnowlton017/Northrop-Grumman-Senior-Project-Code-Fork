@@ -14,7 +14,6 @@ def kalman_filter(x, P):
         P = F * P * F.transpose()
     return x,P
 
-
 measurements = [1, 2, 3]
 
 x = matrix([[0.], [0.]]) # initial state (location and velocity)
