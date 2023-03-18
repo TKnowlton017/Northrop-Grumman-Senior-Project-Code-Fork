@@ -6,8 +6,8 @@ format_version: 4
 model_params:
   model_architecture: "resnet50"
 
-  history_num_frames: 0
-  future_num_frames: 50
+  history_num_frames: 20
+  future_num_frames: 20
   step_time: 0.1
   render_ego_history: True
 
@@ -50,14 +50,14 @@ raster_params:
 ###################
 ## Data loader options
 train_data_loader:
-  key: "scenes/train.zarr"
-  batch_size: 128
+  key: "scenes/sample.zarr"
+  batch_size: 16
   shuffle: True
   num_workers: 0
 
 val_data_loader:
-  key: "scenes/validate.zarr"
-  batch_size: 128
+  key: "scenes/sample.zarr"
+  batch_size: 16
   shuffle: False
   num_workers: 0
 
@@ -65,5 +65,5 @@ val_data_loader:
 ## Train params
 train_params:
   checkpoint_every_n_steps: 10000
-  max_num_steps: 50
+  max_num_steps: 1
   eval_every_n_steps: 10000
