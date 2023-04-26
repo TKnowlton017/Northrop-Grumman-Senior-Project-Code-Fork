@@ -5,7 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>CU Boulder Capstone - Northrop Grumman</title>
-    <meta name="description" content="CU Boulder Capstone Project - Northrop Grumman" />
+    <link rel="icon" href="assets/svg/colorado-buffaloes-logo-svg-vector.svg" type="image/png">
+    <meta
+      name="description"
+      content="CU Boulder Capstone Project - Northrop Grumman"
+    />
 
     <link rel="stylesheet" href="css/style.css" />
 
@@ -27,7 +31,9 @@
               class="header__logo-img"
             />
           </div>
-          <span class="header__logo-sub">CU Boulder/Northrop Grumman Capstone</span>
+          <span class="header__logo-sub"
+            >CU Boulder/Northrop Grumman Capstone</span
+          >
         </div>
         <div class="header__main">
           <ul class="header__links">
@@ -87,8 +93,29 @@
         <h1 class="heading-primary">Welcome to our project</h1>
         <div class="home-hero__info">
           <p class="text-primary">
-            *** Fill in info describing project ***
+            Our team's goal for our capstone project is to create various custom
+            prediction algorithms for the task of autonomous driving. Using
+            L5iKit, a Python library with functionality for the development and
+            training of learned prediction, planning, and simulation models, we
+            iterated on algorithms such as linear regression, Kalman filters,
+            and neural networks.
           </p>
+          <!-- <div>
+            <img
+                src="./assets/png/Poster.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+          </div> -->
+        </div>
+        <div class="home-hero__cta">
+          <button onclick="openImage();" class="btn btn--bg">Open Poster</button>
+          <script>
+            function openImage() {
+              window.open("./assets/png/Poster.png", "_blank");
+            }
+          </script>
         </div>
         <div class="home-hero__cta">
           <a href="./index.html#projects" class="btn btn--bg">Algorithms</a>
@@ -105,7 +132,12 @@
           </a>
         </div> -->
         <div class="home-hero__social">
-          <a target="_blank" rel="noreferrer" href="https://github.com/northrop-grumman-senior-project/ProjectCode" class="home-hero__social-icon-link">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://github.com/northrop-grumman-senior-project/ProjectCode"
+            class="home-hero__social-icon-link"
+          >
             <img
               src="./assets/png/github-ico.png"
               alt="icon"
@@ -153,7 +185,11 @@
         <h2 class="heading heading-sec heading-sec__mb-med">
           <span class="heading-sec__main">About our team</span>
           <span class="heading-sec__sub">
-            We are seniors at the University of Colorado, Boulder... *** Add more info ***
+            Our capstone team consists of six computer science undergraduate
+            students from the College of Engineering and Applied Science at the
+            University of Colorado, Boulder. We had the pleasure of working with
+            Northrop Grumman to develop custom prediction algorithms for
+            autonomous driving.
           </span>
         </h2>
         <div class="about__content">
@@ -161,28 +197,51 @@
             <h3 class="about__content-title">Get to know us!</h3>
             <div class="about__content-details">
               <p class="about__content-details-para">
-                *** Have each team member write a section ***
+                <b>Freddy Rodriguez</b> - I am a Pennsylvania native from Erie, 
+                but have lived in Colorado most of my life. I enjoy watching sports 
+                and going to concerts. I am excited to graduate and start the next phase of my life.
+                <br>
+                <b>Ian Wong</b> - I am a Colorado native originally from Highlands Ranch. 
+                I am an avid fan of Colorado sports and I also enjoy skiing and playing video games. 
+                I am looking forward to furthering my knowledge and skills in computer science.
+                <br>
+                <b>Jack Rogers</b> - I am an aspiring software engineer from Aurora, Colorado. Beyond academics, 
+                I am passionate about continuous learning in cutting-edge technology, business, self-improvement, 
+                and philosophy. I also love staying active, going on hikes, watching sports, and spending time
+                with friends and family.
+                <br>
+                <b>Michael Zigray</b> - I was born and raised in Colorado and love the area. 
+                I spend a lot of my free time going rock climbing, hiking, or going on road trips. 
+                I can't wait to see the world and start my career.
+                <br>
+                <b>Peter McDevitt</b> - Originally from California, moved to Colorado for university and the snow.
+                I have worked on data science projects in university and want to continue creating 
+                interesting AI/ML projects in industry.
+                <br>
+                <b>Talon Knowlton</b> - I am a Colorado native originally from Littleton. 
+                I enjoy the outdoors, learning about various subjects, and making memories 
+                with friends and family. I hope to continue living in Colorado and start my 
+                computer science career contributing to something great.
+                <br>
+                <hr>
               </p>
-              <p class="about__content-details-para">
-                
-              </p>
+              <p class="about__content-details-para"></p>
             </div>
             <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr"
               >Contact</a
             >
           </div>
           <div class="about__content-skills">
-            <h3 class="about__content-title">Our skills and interests</h3>
+            <h3 class="about__content-title">Languages/tools we used</h3>
             <div class="skills">
               <div class="skills__skill">Python</div>
-              <div class="skills__skill">C/C++</div>
-              <div class="skills__skill">Java</div>
-              <div class="skills__skill">JavaScript</div>
+              <div class="skills__skill">L5Kit</div>
+              <div class="skills__skill">PyTorch</div>
+              <div class="skills__skill">Git/GitHub</div>
               <div class="skills__skill">HTML</div>
               <div class="skills__skill">CSS</div>
               <div class="skills__skill">JavaScript</div>
-              <div class="skills__skill">React</div>
-              <div class="skills__skill">Git</div>
+              <div class="skills__skill">PyScript</div>
             </div>
           </div>
         </div>
@@ -193,7 +252,7 @@
         <h2 class="heading heading-sec heading-sec__mb-bg">
           <span class="heading-sec__main">Algorithms</span>
           <span class="heading-sec__sub">
-            *** Quick introduction to our our algorithms/progress ***
+            Here are some of the custom prediction algorithms we have been working on.
           </span>
         </h2>
 
@@ -201,72 +260,72 @@
           <div class="projects__row">
             <div class="projects__row-img-cont">
               <img
-                src="./assets/jpeg/project-mockup-example.jpeg"
+                src="./assets/png/linear_regression.png"
                 alt="Software Screenshot"
                 class="projects__row-img"
                 loading="lazy"
               />
             </div>
             <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Project 1</h3>
+              <h3 class="projects__row-content-title">Linear Regression</h3>
               <p class="projects__row-content-desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                facilis tempora, explicabo quae quod deserunt eius sapiente
-                praesentium.
+                The linear regression model calculates the line-of-best-fit
+                between a given number of measurements to produce estimates.
               </p>
               <a
                 href="./project-1.html"
                 class="btn btn--med btn--theme dynamicBgClr"
                 target="_blank"
-                >Case Study</a
+                >See More</a
               >
             </div>
           </div>
           <div class="projects__row">
             <div class="projects__row-img-cont">
               <img
-                src="./assets/jpeg/project-mockup-example.jpeg"
+                src="./assets/png/kalman_filter.png"
                 alt="Software Screenshot"
                 class="projects__row-img"
                 loading="lazy"
               />
             </div>
             <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Project 2</h3>
+              <h3 class="projects__row-content-title">Kalman Filter</h3>
               <p class="projects__row-content-desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                facilis tempora, explicabo quae quod deserunt eius sapiente
-                praesentium.
+                The Kalman Filter is an algorithm that uses a series of
+                measurements observed over time, including statistical noise and
+                other inaccuracies, to produce estimates.
               </p>
               <a
                 href="./project-2.html"
                 class="btn btn--med btn--theme dynamicBgClr"
                 target="_blank"
-                >Case Study</a
+                >See More</a
               >
             </div>
           </div>
           <div class="projects__row">
             <div class="projects__row-img-cont">
               <img
-                src="./assets/jpeg/project-mockup-example.jpeg"
+                src="./assets/jpeg/neural_network.jpg"
                 alt="Software Screenshot"
                 class="projects__row-img"
                 loading="lazy"
               />
             </div>
             <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Project 3</h3>
+              <h3 class="projects__row-content-title">Neural Network</h3>
               <p class="projects__row-content-desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                facilis tempora, explicabo quae quod deserunt eius sapiente
-                praesentium.
+                A neural network is a type of machine learning algorithm that is
+                inspired by the human brain and mimics the way that neurons
+                signal to one another. It consists of multiple layers that
+                optimize a model’s variables with various weights.
               </p>
               <a
                 href="./project-3.html"
                 class="btn btn--med btn--theme dynamicBgClr"
                 target="_blank"
-                >Case Study</a
+                >See More</a
               >
             </div>
           </div>
@@ -278,8 +337,8 @@
         <h2 class="heading heading-sec heading-sec__mb-med">
           <span class="heading-sec__main heading-sec__main--lt">Contact</span>
           <span class="heading-sec__sub heading-sec__sub--lt">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-            tempora explicabo quae quod deserunt eius sapiente
+            Please use the box below to get in contact with our team for
+            questions, comments, etc.
           </span>
         </h2>
         <div class="contact__form-container">
@@ -340,7 +399,12 @@
                   alt="icon"
                 />
               </a> -->
-              <a target="_blank" rel="noreferrer" href="https://github.com/northrop-grumman-senior-project/ProjectCode" class="home-hero__social-icon-link">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/northrop-grumman-senior-project/ProjectCode"
+                class="home-hero__social-icon-link"
+              >
                 <img
                   class="main-footer__icon"
                   src="./assets/png/github-ico.png"
@@ -348,7 +412,7 @@
                 />
               </a>
               <!-- <a target="_blank" rel="noreferrer" href="#"> -->
-                <!-- <img
+              <!-- <img
                   class="main-footer__icon"
                   src="./assets/png/twitter-ico.png"
                   alt="icon"
@@ -371,11 +435,10 @@
             </div>
           </div>
           <div class="main-footer__row main-footer__row-2">
-            <h4 class="heading heading-sm text-lt">CU BOULDER/NORTHROP GRUMMAN CAPSTONE</h4>
-            <p class="main-footer__short-desc">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit facilis
-              tempora explicabo quae quod deserunt
-            </p>
+            <h4 class="heading heading-sm text-lt">
+              CU BOULDER/NORTHROP GRUMMAN CAPSTONE
+            </h4>
+            <p class="main-footer__short-desc"></p>
           </div>
         </div>
 
